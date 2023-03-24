@@ -1,0 +1,46 @@
+html , body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 500vw;
+    height: 500vh;
+    position: relative;
+    
+}
+
+.area {
+    width: 500vw;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #313338;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200vh;
+}
+
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 200vh;
+}
+
